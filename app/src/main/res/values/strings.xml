@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Treino_Certo</string>
+
+    <string name="privacy_policy_text">
+    A sua privacidade é importante para nós. Esta política de privacidade descreve como coletamos, usamos, divulgamos e protegemos as informações pessoais que você nos fornece ao usar nosso aplicativo. Ao utilizar nosso aplicativo, você concorda com a coleta e uso de informações de acordo com esta política.
+
+Informações que coletamos
+1.1 Informações pessoais: Podemos coletar informações pessoais que você voluntariamente nos fornece, como seu nome, endereço de e-mail e outras informações de contato quando você se registra no nosso aplicativo, preenche formulários ou interage conosco.
+
+1.2 Informações de uso: Podemos coletar informações sobre como você usa nosso aplicativo, incluindo as páginas visitadas, as funcionalidades utilizadas, o tempo gasto no aplicativo e outras estatísticas relevantes. Essas informações são coletadas de forma anônima e agregada para análise estatística e melhoria do aplicativo.
+
+1.3 Informações do dispositivo: Podemos coletar informações sobre o dispositivo móvel que você utiliza para acessar o nosso aplicativo, como o modelo do dispositivo, o sistema operacional, o identificador único do dispositivo e outras informações técnicas.
+
+Uso das informações
+2.1 Utilização interna: As informações pessoais fornecidas por você podem ser utilizadas para melhorar a sua experiência no aplicativo, responder às suas solicitações, personalizar o conteúdo que você visualiza e nos comunicarmos com você.
+
+2.2 Análise e melhoria: As informações de uso e do dispositivo são utilizadas para análise estatística e melhoria contínua do nosso aplicativo. Essas informações nos ajudam a entender como nosso aplicativo é utilizado, identificar tendências e aprimorar sua funcionalidade e desempenho.
+
+2.3 Comunicações de marketing: Podemos utilizar as informações fornecidas por você para enviar comunicações de marketing sobre nossos produtos, serviços, promoções ou atualizações do aplicativo. No entanto, você terá a opção de optar por não receber essas comunicações.
+
+Compartilhamento de informações
+3.1 Parceiros de serviço: Podemos compartilhar suas informações pessoais com parceiros de serviço terceirizados que nos auxiliam na operação do aplicativo, no processamento de pagamentos, na análise de dados e em outras atividades relacionadas.
+
+3.2 Cumprimento legal: Podemos divulgar informações pessoais se exigido por lei, regulamentação ou processo legal válido, ou se acreditarmos de boa-fé que a divulgação é necessária para proteger nossos direitos, segurança ou propriedade, ou para cumprir uma ordem judicial.
+
+Segurança das informações
+Implementamos medidas de segurança adequadas para proteger as informações pessoais que coletamos e mantemos. No entanto, nenhum método de transmissão pela internet ou método de armazenamento eletrônico é completamente seguro, e não podemos garantir a segurança absoluta das informações.
+
+Cookies e tecnologias semelhantes
+Nosso aplicativo pode utilizar cookies e tecnologias semelhantes para melhorar a sua experiência, personalizar o conteúdo e os anúncios exibidos, bem como para fins de análise e segurança. Você pode configurar o seu dispositivo para recus
+    </string>
 </resources>

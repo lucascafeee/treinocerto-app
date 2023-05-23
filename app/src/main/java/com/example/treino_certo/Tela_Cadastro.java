@@ -29,8 +29,8 @@ public class Tela_Cadastro extends AppCompatActivity {
     public void Avancar(View v){
         if(box.isChecked()){
             if(swt.isChecked()){
-                //Intent personal = new Intent(this,Tela_HomeP.class);
-                //startActivity(personal);
+                Intent personal = new Intent(this,Tela_HomeP.class);
+                startActivity(personal);
             }else {
                 Intent normal = new Intent(this,Tela_Home.class);
                 startActivity(normal);
