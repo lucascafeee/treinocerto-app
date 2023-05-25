@@ -1,13 +1,15 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <!-- Gradiente vertical de preto a 60% até ciano a 100% -->
+    <!-- Gradiente vertical de preto a vermelho escuro com pontos intermediários -->
     <gradient
         android:type="linear"
         android:startColor="#000000"
-        android:endColor="#00BCD4"
-        android:angle="270"
-        android:centerColor="#000000"
-        android:centerY="0.6" />
+        android:centerColor="#3C0000"
+        android:centerY="0.5"
+        android:endColor="#8B0000"
+        android:angle="270" />
 
 </shape>
+
+

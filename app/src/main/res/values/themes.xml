@@ -15,8 +15,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="EditTextTheme">
-        <item name="colorControlNormal">#757575</item>
-        <item name="android:textColorHint">#757575</item>
-    </style>
 </resources>

@@ -14,13 +14,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="monospace"
-        android:text="Login"
-        android:textColor="#00BCD4"
+        android:fontFamily="sans-serif-condensed"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
         android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -44,7 +46,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:textColor="#757575"
+        android:textColor="#cccccc"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:theme="@style/EditTextTheme"
@@ -57,17 +59,17 @@
         android:id="@+id/edit_senha"
         android:layout_width="0dp"
         android:layout_height="48dp"
-
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:hint="Senha"
         android:inputType="textPassword"
-        android:textColor="#757575"
+        android:textColor="#cccccc"
         android:theme="@style/EditTextTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
 
     <Button
         android:id="@+id/button6"
@@ -77,14 +79,17 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Entrar"
-        android:textColor="#08DDDD"
+        android:textColor="#FF000000"
         android:textSize="24sp"
+        android:elevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
+
+
 
     <TextView
         android:id="@+id/txt_newsenha"
@@ -95,7 +100,8 @@
         android:layout_marginEnd="8dp"
         android:linksClickable="false"
         android:longClickable="false"
-        android:text="Esqueceu sua senha?"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Esqueci minha senha."
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
@@ -110,8 +116,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Não tem uma conta? "
-        android:textColor="#4C7357"
+        android:textColor="#cccccc"
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/txt_cadastro"
         app:layout_constraintHorizontal_bias="0.909"
@@ -124,10 +131,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="92dp"
-        android:background="@drawable/textview_background"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="Cadastrar"
         android:text="Cadastre-se"
-        android:textColor="#29D9EA"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_newsenha" />
