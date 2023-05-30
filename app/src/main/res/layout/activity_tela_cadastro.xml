@@ -153,13 +153,17 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
-        android:text="Personal"
+        android:checked="false"
         android:fontFamily="sans-serif-condensed"
+        android:text="Personal"
         android:textColor="#cccccc"
+        android:textColorHighlight="#FF0000"
+        android:textColorLink="#FD0000"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:checked="true" />
 
     <CheckBox
         android:id="@+id/checkBox2"

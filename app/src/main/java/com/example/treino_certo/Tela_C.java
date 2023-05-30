@@ -15,16 +15,21 @@ public class Tela_C extends AppCompatActivity {
     }
 
     public void Home(View view){
-        Intent i = new Intent(this,Tela_Home.class);
+        Intent i = new Intent(this, Tela_Home.class);
         startActivity(i);
     }
 
     public void Notif(View view){
-        Intent i = new Intent(this,Tela_Notifc.class);
+        Intent i = new Intent(this, Tela_Notifc.class);
         startActivity(i);
     }
+
     public void Perfil(View view){
-        Intent i = new Intent(this,Tela_Perfil.class);
+        Intent i = new Intent(this, Tela_Perfil.class);
         startActivity(i);
+    }
+
+    public void Voltar(View view){
+        finish();
     }
 }

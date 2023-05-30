@@ -81,6 +81,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Entrar"
+        android:onClick="Entrar"
         android:textColor="#FF000000"
         android:textSize="24sp"
         android:elevation="20dp"
