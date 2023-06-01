@@ -23,57 +23,42 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/btn_est"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginBottom="8dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_not"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_home"
-        app:srcCompat="@drawable/baseline_stacked_bar_chart_24" />
-
-    <ImageButton
         android:id="@+id/btn_perfil"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
         android:background="#00FFFFFF"
         android:onClick="Perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_not"
         app:srcCompat="@drawable/baseline_person_24" />
 
     <ImageButton
         android:id="@+id/btn_home"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:background="#00575656"
         android:onClick="Home"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_est"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_perfil"
+        app:layout_constraintStart_toEndOf="@+id/btn_not"
         app:srcCompat="@drawable/baseline_home_24" />
 
     <ImageButton
         android:id="@+id/btn_not"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="32dp"
         android:layout_marginBottom="8dp"
         android:background="#00FFFFFF"
         android:onClick="Notif"
         android:src="@drawable/ic_notify"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_perfil"
-        app:layout_constraintHorizontal_bias="0.5"
-
-
-        app:layout_constraintStart_toEndOf="@+id/btn_est" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView10"
@@ -153,15 +138,17 @@
         android:id="@+id/button8"
         android:layout_width="319dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
         android:background="@drawable/btn_treinos"
         android:fontFamily="sans-serif-condensed"
         android:text="Planilha de Treino Completa"
         android:textColor="#000000"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_est"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView

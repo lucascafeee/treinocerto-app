@@ -27,15 +27,18 @@ public class Tela_Cadastro extends AppCompatActivity {
     }
 
     public void Avancar(View v){
-        if(box.isChecked()){
-            if(swt.isChecked()){
-                Intent personal = new Intent(this,Tela_HomeP.class);
+        if (box.isChecked()) {
+            boolean switchValue = swt.isChecked(); // Obtenha o valor do Switch
+            if (switchValue) {
+                Intent personal = new Intent(this, Tela_HomeP.class);
+                personal.putExtra("switchValue", switchValue); // Adicione o valor do Switch ao Intent
                 startActivity(personal);
-            }else {
-                Intent normal = new Intent(this,Tela_Home.class);
+            } else {
+                Intent normal = new Intent(this, Tela_Home.class);
+                normal.putExtra("switchValue", switchValue); // Adicione o valor do Switch ao Intent
                 startActivity(normal);
             }
-        }else {
+        } else {
             Toast toast = Toast.makeText(this, "Termos não aceitos!", Toast.LENGTH_SHORT);
             toast.show();
         }
