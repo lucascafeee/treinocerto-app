@@ -21,7 +21,9 @@ public class Tela_Perfil extends AppCompatActivity {
         setContentView(R.layout.activity_tela_perfil);
         nome = findViewById(R.id.txt_nome);
         ft = findViewById(R.id.foto);
-        swt = getIntent().getBooleanExtra("value",false);
+        swt = getIntent().getBooleanExtra("switchValue",false);
+        String userName = getIntent().getStringExtra("userName");
+        nome.setText(userName);
     }
 
     public void Home(View view){

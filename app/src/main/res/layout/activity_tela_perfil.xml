@@ -9,6 +9,8 @@
 
     <Button
         android:id="@+id/button7"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
         style="@style/Widget.Material3.Button.ElevatedButton.Icon"
         android:layout_width="177dp"
         android:layout_height="69dp"
@@ -16,14 +18,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:text="Editar Perfil"
-        android:textColor="@color/ciano"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/foto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -43,17 +43,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
-        android:text="Jamily Cavalcante"
-        android:textColor="@color/ciano"
+        android:layout_marginBottom="60dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -65,7 +63,8 @@
         android:layout_marginBottom="32dp"
         android:onClick="Priv"
         android:text="Política de Privacidade"
-        android:textColor="@color/ciano"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +77,8 @@
         android:layout_height="69dp"
         android:layout_marginBottom="32dp"
         android:text="Configurações"
-        android:textColor="@color/ciano"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,25 +91,14 @@
         android:layout_height="69dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="208dp"
         android:onClick="Sair"
         android:text="Sair"
-        android:textColor="#7A1212"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="160dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ft_perfil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
